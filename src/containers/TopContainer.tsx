@@ -6,7 +6,7 @@ const TopContainer: React.FC = () => (
     <Top>
         <ProfileCard />
     </Top>
-)
+);
 
 const Top = styled.div`
     width: 100vw;
