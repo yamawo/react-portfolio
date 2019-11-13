@@ -2,11 +2,11 @@ import * as React from 'react';
 import styled from 'styled-components';
 import ProfileCard from '../components/ProfileCard';
 
-const TopContainer: React.FC = () =>{
+const TopContainer: React.FC = () => (
     <Top>
         <ProfileCard />
     </Top>
-}
+)
 
 const Top = styled.div`
     width: 100vw;
