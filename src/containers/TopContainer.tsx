@@ -10,13 +10,13 @@ const TopContainer: React.FC = () => (
 
 const Top = styled.div`
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     padding-top: 10%;
     padding-bottom: 10%;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    background-color: #19448e;
+    background-color: #fef4f4;
 `;
 
 export default TopContainer;

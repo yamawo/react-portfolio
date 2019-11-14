@@ -6,11 +6,19 @@ interface Props {
 }
 
 const ProductImage = ({ image }: Props) => (
-    <Image src={image} />
+    <Box>
+        <Image src={image} />
+    </Box>
 );
 
+const Box = styled.div`
+    margin: 0 auto;
+    text-align: center;
+`;
+
 const Image = styled.img`
-    width: 100%;
+    width: 60%;
+    height: 200px;
 `; 
 
 export default ProductImage;

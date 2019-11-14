@@ -8,7 +8,7 @@ const CardPlate = styled.div`
     height: 420px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
     border-radius: 3px;
-    background-color: #eaf4fc;
+    background-color: #ffe4c4;
     padding: 28px;
     box-sizing: border-box;
 `;

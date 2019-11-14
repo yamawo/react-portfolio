@@ -19,16 +19,16 @@ const Wrapper = styled.div`
 `;
 
 const Label = styled.span`
-    color: #19448e;
+    color: black;
     padding: 12px 24px;
     font-weight: 500;
-    border: solid 1px #19448e;
+    border: solid 1px black;
     border-radius: 3px;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
     &:hover {
-        color: #ffffff;
-        background-color: #19448e;
+        color: black;
+        background-color: #fef4f4;
     }
 `;
 

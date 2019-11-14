@@ -10,11 +10,11 @@ const ProfileCardBack = ({ onTurn }: Props) => (
     <>
         <DetailBox>
             <Detail>
-                <Title>フロント</Title>
+                <Title>フロントエンド</Title>
                 <p>HTML, haml, CSS, Scss, JavaScript, jQuery, TypeScript, React, Vue.js, BEM</p>
             </Detail>
             <Detail>
-                <Title>バックエンドスキル他</Title>
+                <Title>バックエンド他</Title>
                 <p>Ruby, RubyonRails, MySQL, AWS（EC2/S3）<br />, Git</p>
             </Detail>
         </DetailBox>

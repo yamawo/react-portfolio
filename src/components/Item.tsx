@@ -26,10 +26,10 @@ const Item = ({ image, name ,text, link }: Props) => (
 const ItemBox = styled.div`
     margin: 10px;
     padding-bottom: 10px;
-    width: 200px;
-    height: 200px;
+    width: 500px;
+    height: 500px;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
-    background-color: #eaf4fc;
+    background-color: #e9e4d4;
 `;
 
 export default Item;

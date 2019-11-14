@@ -8,12 +8,14 @@ const App = () => (
     <Wrapper>
         <Reset />
         <TopContainer />
+        
         <BottomContainer />
     </Wrapper>
 );
 
 const Wrapper = styled.div`
     overflow: hidden;
+    font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 `;
 
 export default App;
