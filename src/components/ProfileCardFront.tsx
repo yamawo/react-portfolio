@@ -15,7 +15,7 @@ interface Props {
     onTurn: () => void;
 }
 
-const ProfileCardFront = ({ onTurn}: Props) => (
+const ProfileCardFront = ({ onTurn }: Props) => (
     <>
         <Left>
             <IconBox>
