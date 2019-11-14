@@ -8,8 +8,8 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import SnsIcon from './SnsIcon';
 import Button from './Button';
-const icon = require('../../public/images/icon.jpg');
-const icon2 = require('../../public/images/icon2.jpg');
+const icon = 'images/icon.jpg';          // public以下を探してくれる
+const icon2 = 'images/icon2.jpg';
 
 interface Props {
     onTurn: () => void;
@@ -54,6 +54,7 @@ const Right = styled.div`
     position: relative;
     width: 70%;
     height: 100%;
+    padding-top: 20px;
     padding-left: 15%;
     box-sizing: border-box;
 `;
@@ -63,7 +64,7 @@ const IconBox = styled.div`
 `;
 
 const ProfileBox = styled.div`
-    margin-top: 10%;
+    margin-top: 20%;
 `;
 
 const SubInfo = styled.div`

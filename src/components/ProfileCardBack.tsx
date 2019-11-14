@@ -10,23 +10,19 @@ const ProfileCardBack = ({ onTurn }: Props) => (
     <>
         <DetailBox>
             <Detail>
-                <Title>フロントエンドスキル</Title>
+                <Title>フロント</Title>
                 <p>HTML, haml, CSS, Scss, JavaScript, jQuery, TypeScript, React, Vue.js, BEM</p>
             </Detail>
-        </DetailBox>
-        <DetailBox>
             <Detail>
                 <Title>バックエンドスキル他</Title>
-                <p>Ruby, RubyonRails, MySQL, AWS（EC2/S3）, Git</p>
+                <p>Ruby, RubyonRails, MySQL, AWS（EC2/S3）<br />, Git</p>
             </Detail>
         </DetailBox>
         <DetailBox>
             <Detail>
                 <Title>趣味</Title>
-                <p>海外サッカー観戦・分析, ゲーム（FIFA, OverWatch...）, 読書（最近は技術書に偏っています）</p>
+                <p>海外サッカー観戦・分析,  ゲーム,  読書</p>
             </Detail>
-        </DetailBox>
-        <DetailBox>
             <Detail>
                 <Title>特技</Title>
                 <p>剣道, 電気制御回路図作成, AutoCAD</p>
