@@ -3,7 +3,14 @@ import styled from 'styled-components';
 import ProductImage from './ProductImage';
 import ProductText from './ProductText';
 
-const Item = (image, name ,text, link) => (
+interface Props {
+    image: any;
+    name: string;
+    text: string;
+    link: string;
+}
+
+const Item = ({ image, name ,text, link }: Props) => (
     <>
         <ItemBox>
             <ProductImage image={image} />
