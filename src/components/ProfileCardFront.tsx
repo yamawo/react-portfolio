@@ -3,8 +3,7 @@ import styled from 'styled-components';
 import SwitchImage from './SwitchImage';
 import SnsIconList from './SnsIconList';
 import {
-    faGithub,
-    faTwitter
+    faGithub
 } from '@fortawesome/free-brands-svg-icons';
 import SnsIcon from './SnsIcon';
 import Button from './Button';
