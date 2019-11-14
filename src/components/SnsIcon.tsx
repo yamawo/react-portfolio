@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 interface Props {
     link: string;
-    icon: any;
+    icon: any; 
 }
 
 const SnsIcon = ({ link, icon }: Props) => (
