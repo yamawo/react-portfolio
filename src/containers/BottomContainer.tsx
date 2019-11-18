@@ -7,7 +7,7 @@ const BottomContainer: React.FC = () => {
         {
             image: "images/noimage.jpg",
             name: "Coin Trade App",
-            text: "BitCoinのリアルタイムチャートを使ったデモトレードアプリです。Rails側で定期的に外部APIからデータを取得させて、JavaScriptでグラフ化しています。擬似取引も行うことができます。(※Crontabを使用しているため、デプロイは行っておりません)",
+            text: "BitCoinのリアルタイムチャートを使ったデモトレードアプリです。Rails側で定期的に外部APIからデータを取得させて、JavaScriptでグラフ化しています。擬似取引も行うことができます。(※Crontabを使用しているため、デプロイは行っておりません)",
             link: "https://github.com/yamawo/trade_app",
         },
         {   
