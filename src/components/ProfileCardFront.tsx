@@ -35,7 +35,8 @@ const ProfileCardFront = ({ onTurn }: Props) => (
                 <Small>Shota Yamasaki</Small>
             </>
             <ProfileBox>
-                論理的に思考するようにしていたら、プログラミングを始めてました。<br />
+                論理的に思考するようにしていたら、プログラミングを始めてました。<br /><br />
+                ※より詳細な顔を見たい場合は左の画像にポインタを当ててください。
             </ProfileBox>
             <Button onClick={onTurn}>裏面へ</Button>
         </Right>
