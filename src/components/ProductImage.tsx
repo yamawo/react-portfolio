@@ -5,15 +5,30 @@ interface Props {
     image: any;
 }
 
-const ProductImage = ({ image }: Props) => (
-    <Box>
-        <Image src={image} />
-    </Box>
-);
+const ProductImage = ({ image }: Props) => {
+    if(image.match(/.jpg|.png/)) {
+        return (
+            <Box>
+                <Image src={image} />
+            </Box>
+        )
+    } else {
+        return (
+            <Box>
+                <Movie src={image} controls />
+            </Box>
+        )    
+    }
+};
 
 const Box = styled.div`
     margin: 0 auto;
     text-align: center;
+`;
+
+const Movie = styled.video`
+    width: 60%;
+    height: 200px;
 `;
 
 const Image = styled.img`

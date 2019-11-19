@@ -5,7 +5,7 @@ import Item from '../components/Item';
 const BottomContainer: React.FC = () => {
     const productList = [
         {
-            image: "images/noimage.jpg",
+            image: "images/tradeapp.mov",
             name: "Coin Trade App",
             text: "BitCoinのリアルタイムチャートを使ったデモトレードアプリです。Rails側で定期的に外部APIからデータを取得させて、JavaScriptでグラフ化しています。擬似取引も行うことができます。(※Crontabを使用しているため、デプロイは行っておりません)",
             link: "https://github.com/yamawo/trade_app",
