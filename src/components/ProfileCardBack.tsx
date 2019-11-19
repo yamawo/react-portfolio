@@ -11,7 +11,7 @@ const ProfileCardBack = ({ onTurn }: Props) => (
         <DetailBox>
             <Detail>
                 <Title>フロントエンド</Title>
-                <p>HTML, haml, CSS, Scss, JavaScript, jQuery, TypeScript, React, Vue.js, BEM</p>
+                <p>HTML, haml, CSS, Scss, JavaScript, jQuery, TypeScript, React, Vue.js, BEM, (Redux勉強中！)</p>
             </Detail>
             <Detail>
                 <Title>バックエンド他</Title>
